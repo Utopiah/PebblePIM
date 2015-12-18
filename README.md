@@ -14,7 +14,10 @@ Review then daily or weekly the best moment then complete them with textual desc
 * Wiki result interface
  * easy to edit last moment
   * can an open on phone option using the middle button
- * top 3 and bottom during last 24 hrs, last 7 days, etc 
+ * top 3 and bottom during last 24 hrs, last 7 days, etc
+ 
+### Ressources
+* https://developer.getpebble.com/guides/timeline/timeline-libraries/#pebble-api
 
 ## Principle to consult (general information, not working yet)
 ```javascript
@@ -38,14 +41,14 @@ if (           abs(pos.coords.longitude-target.longitude)<distance
                target.card.show();
 }
 ```
-## PIM Content
+### PIM Content
 Mini versions (Pebble card format) of PIM CognitiveEnvironments e.g. one for the coffee where I do my morning side projects, one for home, one for the office. Optionally check the time for different messages.
 
 
-## Problem
+### Problem
 How to make it energy efficient, shouldn't check the current position every 2 minutes.
 
-## Resources
+### Resources
 * http://developer.getpebble.com/guides/js-apps/js-other/
 * http://developer.getpebble.com/docs/pebblejs/
 * http://stackoverflow.com/questions/tagged/cloudpebble
