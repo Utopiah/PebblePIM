@@ -35,8 +35,8 @@ Mini versions (Pebble card format) of PIM CognitiveEnvironments e.g. one for the
 How to make it energy efficient, shouldn't check the current position every 2 minutes.
 
 ## Resources
-http://developer.getpebble.com/guides/js-apps/js-other/
-http://developer.getpebble.com/docs/pebblejs/
-http://stackoverflow.com/questions/tagged/cloudpebble
-http://fabien.benetou.fr/CognitiveEnvironments/CognitiveEnvironments
+* http://developer.getpebble.com/guides/js-apps/js-other/
+* http://developer.getpebble.com/docs/pebblejs/
+* http://stackoverflow.com/questions/tagged/cloudpebble
+* http://fabien.benetou.fr/CognitiveEnvironments/CognitiveEnvironments
 
