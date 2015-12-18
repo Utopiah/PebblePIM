@@ -5,7 +5,7 @@ PebblePIM, Consulting and updating  your PIM on your wrist
 Send timestamp of memorable moment then 1 minute to update the score of how good or bad it was.
 Review then daily or weekly the best moment then complete them with textual description.
 
-## Principle
+## Principle to consult
 ```javascript
 
 var card = new UI.Card({
