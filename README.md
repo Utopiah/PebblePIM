@@ -3,7 +3,7 @@ PebblePIM, Consulting and updating  your PIM on your wrist
 
 ![screenshot](http://fabien.benetou.fr/pub/portfolio/PebblePIM.png)
 
-##Principle to update (mood, working)
+##Update your PIM with your mood (working)
 Send timestamp of memorable moment then 1 minute to update the score of how good or bad it was.
 Review then daily or weekly the best moment then complete them with textual description.
 
@@ -21,7 +21,7 @@ Review then daily or weekly the best moment then complete them with textual desc
 ### Ressources
 * https://developer.getpebble.com/guides/timeline/timeline-libraries/#pebble-api
 
-## Principle to consult (general information, not working yet)
+##Consult your PIM (not working yet)
 ```javascript
 
 var card = new UI.Card({
