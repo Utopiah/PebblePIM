@@ -7,7 +7,7 @@ Review then daily or weekly the best moment then complete them with textual desc
 
 ###Improvement
 * Generalize to other actions rather than only positive/negative feeling
-** e.g. candy
+ * e.g. candy
 * safety mechanism
  * less than M message of category since X hours, request update
  * more than N messages of category since Y hours, send warning
