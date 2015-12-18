@@ -4,9 +4,11 @@ var ws = new WebSocket('ws://fabien.benetou.fr:8889');    // Replace with IP of 
 
 var connected = false;
 
+var now = Date.now();
+var pebble = Pebble.getWatchToken();
+
 ws.onopen = function () { 
-  ws.send('pebble sending memorable moment');
-  console.log('pebble sending memorable moment');
+  ws.send(now+':'+pebble);
   connected = true;
 };
 
@@ -26,14 +28,15 @@ ws.onmessage = function (event) {
 };
 
 main.on('click', function(e) {
-  main.subtitle('Button ' + e.button + ' pressed.');
   if (connected){
-     ws.send(e.button + ' button pressed ');
+     ws.send(e.button);
   }
   // once the connection has been established the user has 1 minute to send
   // +1 point using the up button
   // -1 point using the up button
-  // the server at the end of the minute will write a new PmWiki file
-  // just like http://fabien.benetou.fr/Portfolio/CoEvolution?action=source
-  // those can then be listed at the end of the day or week to easilly spot the most intense moments
 });
+
+setTimeout(function(){
+  ws.close(); 
+  main.hide();
+}, 15*1000);
