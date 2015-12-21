@@ -1,7 +1,7 @@
 {
     "appKeys": {},
     "capabilities": [
-        ""
+        "configurable"
     ],
     "companyName": "fabien-services@benetou.fr",
     "longName": "PebblePIM, consulting your PIM on your wrist",
