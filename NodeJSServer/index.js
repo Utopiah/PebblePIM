@@ -50,10 +50,10 @@ wss.on('connection', function(ws) {
   ws.on('close', function() {
 		  console.log('client disconnected');
 		  console.log('can now write the data to a Wiki file');
-		  if (ids[1] == configuration.pebbleAccountIDWeb) {
-		  console.log("proper ID, can write");
 		  console.log('at time '+ids[0]+' user '+ids[1]+' had an intense moment.');
 		  console.log('This moment was '+goodMomentIntensity+' good and '+badMomentIntensity+' bad.');
+		  if (ids[1] == configuration.pebbleAccountIDWeb || ids[1] == configuration.pebbleAccountID) {
+		  console.log("proper ID, can write");
 		  // record to file
 		  // the server at the end of the minute will write a new PmWiki file
 		  // just like http://fabien.benetou.fr/Portfolio/CoEvolution?action=source
