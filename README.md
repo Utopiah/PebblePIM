@@ -21,5 +21,5 @@ Review then daily or weekly the best moment then complete them with textual desc
 ### Ressources
 * https://developer.getpebble.com/guides/timeline/timeline-libraries/#pebble-api
 
-##Consult your PIM (not working yet)
+##Consult your PIM
 Moved to its [own repository](https://github.com/Utopiah/PebblePIM-Consult) as it is easier to have 2 seperate apps to develop and to add in QuickLaunch.
